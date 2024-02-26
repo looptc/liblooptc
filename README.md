@@ -58,4 +58,4 @@ This project is licensed under the Public Domain.
 
 ## Author
 
-liblooptc is developed by Abel Romero Pérez a.k.a diwi.
+liblooptc is developed by Abel Romero Pérez.
