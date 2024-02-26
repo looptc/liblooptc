@@ -12,17 +12,22 @@ liblooptc is a C library designed for facilitating inter-thread communication us
 To use liblooptc in your project, follow these steps:
 
 1. Clone the repository:
-git clone <repository-url>
+```bash
+    git clone <repository-url>
+```
 2. Include the header file `looptc.h` in your source code:
 ```c
 #include "looptc.h"
 ```
 3. Compile your source code with `liblooptc.a`:
+````bash
 gcc -o your_program your_program.c -L/path/to/liblooptc -llooptc
+```
 4. Ensure that liblooptc.a is present in your library path.
 5. Start using the provided functions in your code.
 
 ## Example
+You have `looptc_example.c` in this repository... if you want a simple one:
 ```c
 #include <stdio.h>
 #include "looptc.h"
