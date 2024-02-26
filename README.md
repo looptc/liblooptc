@@ -13,14 +13,14 @@ To use liblooptc in your project, follow these steps:
 
 1. Clone the repository:
 ```bash
-    git clone <repository-url>
+git clone <repository-url>
 ```
 2. Include the header file `looptc.h` in your source code:
 ```c
 #include "looptc.h"
 ```
 3. Compile your source code with `liblooptc.a`:
-````bash
+```bash
 gcc -o your_program your_program.c -L/path/to/liblooptc -llooptc
 ```
 4. Ensure that liblooptc.a is present in your library path.
